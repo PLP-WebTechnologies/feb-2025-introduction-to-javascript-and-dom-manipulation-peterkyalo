@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Bonus: Add a new feature item when clicking on the list
+    // Add a new feature item when clicking on the list
     featuresList.addEventListener('click', function() {
         const newItem = document.createElement('li');
         newItem.textContent = 'New feature added dynamically!';
